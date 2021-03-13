@@ -1,16 +1,36 @@
-
+/*_____Game_buttons______*/
 .cinnimon-roll {
-  
+   background-color: #ffffff;
+  background-image: url(../img/Ube-Bread-Feature.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+    background-size: contain;
+    position: relative
 }
 
 .bread {
-
+background: url(../img/bread_roll.jpg);
+background-repeat: no-repeat;
+  background-position: right bottom;
+    background-size: contain;
+    position: relative
 }
+
 
 .pain-au-chocolat{
- 
+ background: url(../img/pain-au-chocolat.png);
+ background-repeat: no-repeat;
+  background-position: unset;
+    background-size: contain;
+    position: relative
 }
 
+
 .fairy-cake {
- 
+ background: url(../img/fairy-cake.jpg);
+ background-repeat: no-repeat;
+  background-position: bottom;
+    background-size: contain;
+    position: relative
 }
+
