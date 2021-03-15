@@ -1,64 +1,90 @@
 body, html {
-    background-color: black;
+    background-color: rgb(211, 108, 11);
     color: burlywood;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+.diff-lvl h3{
+    color: teal;
+}
+
+.diff-lvl{
+    font-size: 30px;
+     list-style: none;
+     text-align: center;
+     padding: 20px;
+     margin: auto;
+}
+#modal-btn{
+    color: rgb(211, 108, 11);
+    background-color: burlywood;
+    text-align: center;
+}
+#modal-btn:hover{
+    color: rgb(211, 108, 11);
+    background-color: rgb(151, 131, 104);
+}
 
 .game_info_section{
        
-      text-align: center;
+    text-align: center;
     margin: auto;
     display: inline block;
 }
 .score{
-    padding-top: 90px;
+    padding: 50px;
     font-size: 60px;
 }
 
 
-ul{
-    font-size: 30px;
-     list-style: none;
-     padding: 40px 0px 30px 0px;
-}
 .startbtn{
-    font-size: 70px;
-      text-align: center;
-    margin: auto;
-    display: inline block;
-    padding: 10px;
+    font-size: 30px;
+    padding: 50px;
 }
 
 
 /*_____Game_buttons______*/
 .cinnimon-roll {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
 }
 
 .bread {
     position: relative;
-     width: 200px;
-    height: 200px;
+     width: 140px;
+    height: 140px;
 }
 
 .pain-au-chocolat{
     position: relative;
-      width: 200px;
-    height: 200px;
+    width: 140px;
+    height: 140px;
 }
 .fairy-cake {
 position: relative;
-  width: 200px;
-    height: 200px;
+ width: 140px;
+    height: 140px;
 }
 .speechbubble{
     text-align: center;
     margin: auto;
+     width: 400px;
+    height: 400px;
 }
 
-.cinnimon-roll:hover,.fairy-cake:hover, .bread:hover, .pain-au-chocolat:hover{
+.fairy-cake:hover{
+    background-color: rgb(105, 237, 100);
+}
+
+.bread:hover{
+    background-color: rgb(237, 105, 100);
+}
+
+.pain-au-chocolat:hover{
+    background-color: rgb(221, 185, 64);
+}
+
+.cinnimon-roll:hover {
     background-color: cornflowerblue;
 }
