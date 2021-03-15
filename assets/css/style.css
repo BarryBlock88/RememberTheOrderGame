@@ -12,13 +12,16 @@ body, html {
     font-size: 30px;
      list-style: none;
      text-align: center;
-     padding: 20px;
+     padding: 10px;
      margin: auto;
 }
 #modal-btn{
     color: rgb(211, 108, 11);
     background-color: burlywood;
     text-align: center;
+    padding: 7px 20px 7px 20px;
+  
+
 }
 #modal-btn:hover{
     color: rgb(212, 146, 85);
@@ -31,26 +34,25 @@ body, html {
     margin: auto;
     display: inline block;
 }
-.score{
-    padding: 50px;
-    font-size: 60px;
+.score h3{
+    padding: 20px;
+    font-size: 40px;
 }
  .start-game{
-     color: burlywood;
-    background-color: teal;
+     color: rgb(155, 88, 0);
+    background-color: burlywood;
+     font-size: 30px;
+   padding: 10px 30px 10px 30px;
+   margin-bottom: 10px;
  }
   .start-game:hover{
      color: rgb(192, 149, 93);
     background-color: rgb(6, 34, 34);
     cursor: pointer;
  }
-.startbtn{
-    font-size: 30px;
-    padding: 50px;
-}
 
 .game-area{
-    padding: 30px;
+    padding: 10px;
 }
 /*_____Game_buttons______*/
 .col-6{
@@ -87,19 +89,23 @@ position: relative;
 .fairy-cake:hover{
     background-color: rgb(105, 237, 100);
     cursor: pointer;
+    padding: 10px;
 }
 
 .bread:hover{
     background-color: rgb(237, 105, 100);
     cursor: pointer;
+    padding: 10px;
 }
 
 .pain-au-chocolat:hover{
     background-color: rgb(221, 185, 64);
     cursor: pointer;
+    padding: 10px;
 }
 
 .cinnimon-roll:hover {
     background-color: cornflowerblue;
     cursor: pointer;
+    padding: 10px;
 }
