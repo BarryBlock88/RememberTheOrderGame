@@ -1,5 +1,5 @@
 body, html {
-    background-color: rgb(211, 108, 11);
+    background-color: rgb(212, 113, 19);
     color: burlywood;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
@@ -42,7 +42,7 @@ body, html {
      color: rgb(155, 88, 0);
     background-color: burlywood;
      font-size: 30px;
-   padding: 10px 30px 10px 30px;
+   padding: 7px 20px 7px 20px;
    margin-bottom: 10px;
  }
   .start-game:hover{
@@ -57,7 +57,7 @@ body, html {
 /*_____Game_buttons______*/
 .col-6{
     margin: auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 .cinnimon-roll {
@@ -93,7 +93,7 @@ position: relative;
 }
 
 .bread:hover{
-    background-color: rgb(237, 105, 100);
+    background-color: rgb(241, 16, 9);
     cursor: pointer;
     padding: 10px;
 }
