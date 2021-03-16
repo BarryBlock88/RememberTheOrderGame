@@ -1,25 +1,36 @@
 
-let difficulty;
-let	count = 0;
-let userScore;
-let scoreMultiplier = 1;
-let scoreIncrease = 1;
+let sequence = [];
+let playerOrder = [];
+let flashhHoverHover;
 let compTurn;
-let playerTurn;
+let start = false;
+let win;
 
-let cinnimonRoll = document.querySelector('.cinnimon-roll')
+
+
+let cinRoll = document.querySelector('.cinnimon-roll')
 let bread = document.querySelector('.bread')
-let fairyCake = document.querySelector('.fairy-cake')
+let faCake = document.querySelector('.fairy-cake')
 let painAu = document.querySelector('.pain-au-chocolat')
+let startBtn = document.querySelector(".startbtn");
+let scoreCount = document.querySelector(".score");
 
-let testOrder = [
-    cinnimonRoll,
-    bread,
-    fairyCake,
-    painAu
-];
 
-let flash;
+
+
+function clearColor() {
+  cinRoll.style.backgroundColor = "transparent";
+  bread.style.backgroundColor = "transparent";
+  painAu.style.backgroundColor = "transparent";
+  faCake.style.backgroundColor = "transparent";
+}
+
+function hoverColor() {
+  cinRoll.style.backgroundColor = "cornflowerblue";
+  bread.style.backgroundColor = "rgb(241, 16, 9)";
+  painAu.style.backgroundColor = "rgb(221, 185, 64)";
+  faCake.style.backgroundColor = "rgb(105, 237, 100)";
+}
 
 let diffOption1 = document.querySelector('#DOption1');
 let diffOption2 = document.querySelector('#DOption2');
@@ -53,3 +64,5 @@ diffOption4.addEventListener('click' (event) === {
    
     }
 })
+
+

@@ -50,7 +50,7 @@
                                 <label for="DOption4">Sunday Morning</label>
                             </li>
                         </ul>
-                        <button type="button" class="close" data-dismiss="modal"
+                        <button type="button" class="close startbtn" data-dismiss="modal"
                             aria-label=""><span>Bake</span></button>
                     </div>
                 </div>
@@ -67,25 +67,25 @@
             <div class="game_area col-6">
                 <div class="row ">
                     <div class="cinnimon-roll col-6">
-                        <div class="">
+                        <div class="game-btn">
                             <img src="assets/img/cinemon-roll.png" alt="Cinemon roll" class="img-fluid">
                         </div>
                     </div>
 
                     <div class=" bread col-6">
-                        <div class="">
+                        <div class="game-btn">
                             <img src="assets/img/bread_roll.png" alt="bread roll" class="img-fluid">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class=" pain-au-chocolat col-6">
-                        <div class="">
+                        <div class="game-btn">
                             <img src="assets/img/pain-au-chocolat.png" alt="pain au chocolat" class=" img-fluid">
                         </div>
                     </div>
                     <div class="fairy-cake col-6">
-                        <div class="">
+                        <div class="game-btn">
                             <img src="assets/img/fairy-cake.png" alt="fairy cake" class=" img-fluid">
                         </div>
                     </div>
@@ -97,11 +97,12 @@
         <div class="row box">
             <div class="col-6"></div>
              <div class="startbtn ">
-            <button class="btn hide-button start-game col-6">Start Taking Orders!</button>
+            <button class="btn hide-button start-game col-6" onclick="play()">Start Taking Orders!</button>
         </div>
           
         </div>
     </div>
+     <script src="assets/js/script.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
 </body>
